@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="spring-expression-5.0.1.RELEASE">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/spring-expression-5.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/aspectjrt.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/spring-context-5.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/commons-logging-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/aspectjweaver.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/spring-core-5.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/spring-beans-5.0.1.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/spring_01/src/lib/spring-aop-5.0.1.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

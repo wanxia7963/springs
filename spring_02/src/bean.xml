@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--&lt;!&ndash; bean definitions here &ndash;&gt;-->
+    <!--<bean id="customerService"  class="com.wanxia.service.imp.CustomerServiceImpl">-->
+        <!--<constructor-arg name="driver" value="com.mysql.jdbc.Driver"></constructor-arg>-->
+        <!--<constructor-arg name="prot" value="3306"></constructor-arg>-->
+        <!--<constructor-arg name="today" value="now"></constructor-arg>-->
+    <!--</bean>-->
+    <bean id="customerService" class="com.wanxia.service.imp.CustomerServiceImpl">
+        <property name="driver" value="com.mysql.jdbc.Driver"></property>
+        <property name="port" value="3306"></property>
+
+    </bean>
+    <bean id="now" class="java.util.Date"></bean>
+
+
+
+</beans>
